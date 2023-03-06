@@ -908,6 +908,15 @@ main #about_section [class*=container] ul.list_box li span {
   main #about_section .section_title h2 {
     font-size: 50px;
   }
+  main #contact_section .section_title h2 span{
+    font-size: 30px !important;
+  }
+  main #contact_section .section_title h2{
+    font-size: 50px !important;
+  }
+  .contact-form{
+    margin: 10px;
+  }
 }
 
 main #about_section [class*=container] ul.list_box li span::before {
@@ -1034,6 +1043,33 @@ main #portfolio_section .section_title h2 {
   position: relative;
   margin: 0;
   padding: 0;
+}
+main #contact_section .section_title h2 {
+  font-size: 100px;
+  text-align: center;
+  color: #252525;
+  letter-spacing: 12px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+main #contact_section .section_title h2 span {
+  position: absolute;
+  font-size: 50px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: 900;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main #contact_section .section_title h2 span b {
+  color: #ffb400;
 }
 
 main #portfolio_section .section_title h2 span {
