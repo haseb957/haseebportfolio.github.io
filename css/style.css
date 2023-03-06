@@ -901,6 +901,15 @@ main #about_section [class*=container] ul.list_box li span {
   }
 }
 
+@media (max-width: 767px){
+  main #portfolio_section .section_title h2 {
+    font-size: 50px;
+  }
+  main #about_section .section_title h2 {
+    font-size: 50px;
+  }
+}
+
 main #about_section [class*=container] ul.list_box li span::before {
   content: '';
   width: 40px;
