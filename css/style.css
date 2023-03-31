@@ -917,6 +917,9 @@ main #about_section [class*=container] ul.list_box li span {
   .contact-form{
     margin: 10px;
   }
+  .ran-txt{
+    display: block;
+  }
 }
 
 main #about_section [class*=container] ul.list_box li span::before {
